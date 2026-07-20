@@ -4,12 +4,21 @@
 [![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/framework-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![ML Engine](https://img.shields.io/badge/ml--engine-scikit--learn%20%7C%20xgboost-orange.svg)](https://scikit-learn.org/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://7ewu9kfxzxwrtdbn3uibfs.streamlit.app/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ---
 
+## 🚀 Live Demo
+
+👉 **Launch the application here:**  
+https://7ewu9kfxzxwrtdbn3uibfs.streamlit.app/
+
+---
+
 ## 📋 Project Overview
-This repository contains a production-ready, modular machine learning architecture designed to classify Fine-Needle Aspirate (FNA) breast tissue biopsy profiles into **Malignant** or **Benign** categories. 
+
+This repository contains a production-ready, modular machine learning architecture designed to classify Fine-Needle Aspirate (FNA) breast tissue biopsy profiles into **Malignant** or **Benign** categories.
 
 Most introductory ML implementations suffer from structural **Data Leakage** by scaling datasets globally before partitioning validation folds. This framework implements a rigid MLOps boundary by wrapping feature transformers (`StandardScaler`) and estimators natively within scikit-learn `Pipeline` objects. This guarantees complete mathematical isolation across all cross-validation blocks.
 
@@ -47,3 +56,4 @@ breast_cancer_detection/
 ├── notebook.ipynb              # Visual Exploratory Data Analysis (EDA) dashboard
 ├── requirements.txt            # Explicitly pinned third-party dependencies
 └── README.md                   # Technical operation documentation
+```
